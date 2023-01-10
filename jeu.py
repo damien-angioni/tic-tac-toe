@@ -101,7 +101,7 @@ while(Game_Over<1):
             elif(parité==1):
                 print("tour du joueur 2:")
                 placement=input("Choisissez votre emplacement:")
-                if(placement==1):
+                if(placement=="1"):
                     if(B1==" "):
                         B1=Player2
                         parité=0
