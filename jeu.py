@@ -17,7 +17,7 @@ print("Pour placer votre marque, vous suivrez cette logique là pour la grille:"
 print("7|8|9")
 print("4|5|6")
 print("1|2|3")
-print("Le joueur 1 commence et est remrésenté par une X tandis que le joueur 2 est second et représenté par un O:")
+print("Le joueur 1 commence et est représenté par une X tandis que le joueur 2 est second et représenté par un O:")
 while(Game_Over<1):
     if(H1==H2==H3==Player1)or(H1==M2==B3==Player1)or(H1==M1==B1==Player1)or(H2==M2==B2==Player1)or(H3==M2==B1==Player1)or(H3==M3==B3==Player1)or(M1==M2==M3==Player1)or(B1==B2==B3==Player1):
         print("Joueur 1 a gagné! du coup t'es nul joueur 2!")
